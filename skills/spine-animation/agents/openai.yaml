@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spine Animation"
+  short_description: "Create and repair expressive, editable Spine animation"
+  default_prompt: "Use $spine-animation to create or repair a Spine animation from my character and motion references, review the complete action, and deliver an editable project and playable preview."
