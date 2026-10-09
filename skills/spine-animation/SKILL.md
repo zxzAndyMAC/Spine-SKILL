@@ -11,7 +11,7 @@ Aim for readable intent, appealing poses, convincing form, purposeful timing, an
 
 Read the current request, any `PROJECT.md`, the authoritative `.spine` project, and its actual preview. Separate identity, style, and motion references. Preserve the parts the user has accepted. Later rejection supersedes earlier delivery claims; later acceptance updates the aesthetic status of that specific version, while untested technical claims remain separate.
 
-In a new environment, prove a small round trip: import an image and an animation, edit/save/reopen in the native editor, then export and actually play the result. Reuse an already demonstrated environment. For version, format, automation, or delivery questions, read [Editor and delivery](references/editor-delivery.md).
+In a new environment, prove a small round trip: import an image and an animation, edit/save/reopen in the native editor, then export and actually play the result. Reuse an already demonstrated environment. For version, format, automation, or delivery questions, read [Editor and delivery](references/editor-delivery.md). When a request names an uncommon Spine editor feature, read the matching row in [the Spine 4.3 feature index](references/spine-4.3-feature-index.md) and then load only the linked manual section.
 
 Clarify only omissions that materially change the work, such as intent, immutable design features, required views, or transitions. Proceed with routine reversible work. Treat local feedback as an addition to the current task and retain other approved effects.
 

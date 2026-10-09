@@ -47,7 +47,7 @@
 
 ## 安装
 
-任选一种方式。可安装内容位于 `skills/spine-animation/`，配套参考文件需要一起安装。README 的图片和示例 GIF 不会进入技能目录。
+任选一种方式。可安装内容位于 `skills/spine-animation/`，配套参考文件需要一起安装。README 的图片、示例 GIF 和可选的完整中文手册不会进入技能目录。
 
 ### 1. 命令行安装
 
@@ -173,12 +173,16 @@ skills/spine-animation/
 └── references/
     ├── motion-and-rig.md            # 动作设计、绑定、衔接
     ├── diagnosis-and-lessons.md     # 视觉问题、特效、成功案例
-    └── editor-delivery.md           # 版本、回导、播放、交付
+    ├── editor-delivery.md            # 版本、回导、播放、交付
+    └── spine-4.3-feature-index.md   # 不常见编辑器功能的路由
 assets/                             # README logo 和生成提示词
 examples/hog-rider/                  # 已认可动画示例
+docs/Spine-4.3-complete-manual.zh-CN.md # 可按需查阅的完整 4.3 手册
 README.md                           # 默认英文版
 README.zh-CN.md                      # 简体中文版
 ```
+
+完整手册保留在 `docs/`，用于按需查询；它不会随 skill 默认加载。遇到具体功能时，先查功能索引，再只读取对应章节。
 
 ## 参与贡献
 

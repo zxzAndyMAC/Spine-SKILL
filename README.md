@@ -47,7 +47,7 @@ The skill guides reference analysis, asset preparation, rig selection, pose and 
 
 ## Install
 
-Choose one method. The installable package is `skills/spine-animation/`; its references travel with it. The README artwork and example GIF are outside the installed skill.
+Choose one method. The installable package is `skills/spine-animation/`; its references travel with it. The README artwork, example GIF, and optional full Chinese manual are outside the installed skill.
 
 ### 1. Command line
 
@@ -175,12 +175,16 @@ skills/spine-animation/
 └── references/
     ├── motion-and-rig.md            # Action design, rig choices, transitions
     ├── diagnosis-and-lessons.md     # Visual faults, effects, accepted case
-    └── editor-delivery.md           # Versions, round trips, playback, handoff
+    ├── editor-delivery.md            # Versions, round trips, playback, handoff
+    └── spine-4.3-feature-index.md   # Route uncommon editor features
 assets/                             # README logo and generation prompt
 examples/hog-rider/                  # Approved animation showcase
+docs/Spine-4.3-complete-manual.zh-CN.md # Optional full 4.3 reference
 README.md                           # English, default
 README.zh-CN.md                      # Simplified Chinese
 ```
+
+The full manual stays under `docs/` for on-demand lookup. It is intentionally not loaded with the skill by default; the feature index points to the sections that matter for a particular request.
 
 ## Contributing
 
